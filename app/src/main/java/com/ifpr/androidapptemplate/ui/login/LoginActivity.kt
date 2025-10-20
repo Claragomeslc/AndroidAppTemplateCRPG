@@ -22,7 +22,8 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var passwordEditText: EditText
     private lateinit var loginButton: Button
     private lateinit var registerLink: TextView
-    private lateinit var btnGoogleSignIn: SignInButton
+    private lateinit var btnGoogleSignIn:
+            SignInButton
     private lateinit var firebaseAuth: FirebaseAuth
 
     companion object {
